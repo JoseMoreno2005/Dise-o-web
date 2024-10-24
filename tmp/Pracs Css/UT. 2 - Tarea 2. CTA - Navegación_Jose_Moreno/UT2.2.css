@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+}
+
+.cta-menu li {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid black;
+    float: inline-end;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    li:last-child a {
+        border-right: none;
+    }
+}
+
+.cta-menu li:hover {
+
+    background-color: rgb(0, 255, 255);
+}
+
+.cta-container {
+    background: url(fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 60px;
+
+    h2.cta-text {
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+    .cta-button {
+
+        background-color: rgb(30, 255, 0);
+        color: black;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border: 0px;
+        border-radius: 15px;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .cta-button:hover {
+        background-color: rgb(199, 253, 248);
+        color: black;
+        transform: scale(1);
+    }
+
+    .left {
+        font-family: Arial, Helvetica, sans-serif;
+        float: left;
+        color: white;
+    }
+    .left:hover {
+        color: blue;
+    }
+
+    .right {
+        font-family: Arial, Helvetica, sans-serif;
+        float: right;
+        color: white;
+    }
+    .right:hover {
+        color: blue;
+
+    }
+}
